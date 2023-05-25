@@ -1,0 +1,155 @@
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas */
+  header {
+    font-size: 18px;
+  }
+  
+  nav {
+    font-size: 14px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  section {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas */
+  header {
+    font-size: 24px;
+  }
+  
+  nav {
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Estilos para pantallas grandes */
+  header {
+    font-size: 32px;
+  }
+  
+  nav {
+    font-size: 18px;
+  }
+  
+  main {
+    padding: 0px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    font-size: 20px;
+  }
+}
+
+body {
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+#encabezado{
+  background-color: rgba(80, 80, 80, 0.856);
+  height: 100px; /* Altura deseada */
+  width: 100%; /* Ancho completo */
+
+  
+}
+
+.barraNavegacion  {
+  
+  float: right;
+  margin-top: 0.5cm;
+}
+
+.nav-link{
+  color: white
+}
+
+#posNav{
+  
+  float: right;  
+}
+
+
+
+#colTick {
+  color:green;
+}
+
+.imagen{
+  opacity: 1.5;
+ 
+}
+
+.card{
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+.border-green {
+  border-color: green;
+}
+
+.border-yellow{
+  border-color: yellow;
+}
+
+#miBoton{
+  
+  padding: 10px 20px;
+  font-size: 16px;  
+  width: 100%;
+
+}
+
+#pie {
+  background: linear-gradient(to right, #00193f, #00378a);  
+  height: auto; /* Altura deseada */
+  width: auto; /* Ancho completo */
+  margin-top: auto;
+} 
+
+#list{
+  float: right;
+  
+  margin-top: 0.5cm;
+  margin: auto;
+}
+
+.nav-link{
+  padding-right: 5em;
+  scroll-padding-left: 5em;;
+  margin: auto;
+  
+}
+
+
